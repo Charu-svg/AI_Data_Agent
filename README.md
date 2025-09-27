@@ -29,13 +29,15 @@ AI_Data_Agent/
 
 ## Setup
 
-### Backend
-```bash
-python -m venv venv
+
+
+
+HOW TO RUN
+## Backend
+```bash venv
 # Activate venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate # Mac/Linux
-pip install -r requirements.txt
 pip install fastapi uvicorn
 uvicorn main:app --reload  
 
@@ -48,6 +50,7 @@ npm install axios react-chartjs-2 chart.js
 npm start
 
 Backend runs on http://localhost:8000/docs, frontend on http://localhost:3000.
+ask any question like show all sales
 
 # Clone the repository
 git clone https://github.com/Charu-svg/AI_Data_Agent.git
