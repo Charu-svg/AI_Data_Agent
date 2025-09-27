@@ -33,8 +33,10 @@ AI_Data_Agent/
 
 
 HOW TO RUN
-## Backend
-```bash venv
+
+```bash
+## backend
+ venv
 # Activate venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate # Mac/Linux
